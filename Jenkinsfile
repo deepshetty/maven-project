@@ -12,7 +12,7 @@ steps{
 }
 }
 stage('-----package-----'){
-step{
+steps{
  sh "mvn package"
 }
 }
